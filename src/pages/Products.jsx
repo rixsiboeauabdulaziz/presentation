@@ -86,7 +86,7 @@ function Products() {
             <Rating value={4} />
           </CardBody>
 
-          <Link to={`/product/${product.id}`}>
+          <Link to={`/contakc/${product.id}`}>
             <Button
               ripple={false}
               fullWidth
