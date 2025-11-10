@@ -3,7 +3,7 @@ import Layout from "./pages/Layout"
 import Home from "./pages/Home"
 import Products from "./pages/Products"
 import { Coment } from "./pages/Coment"
-import Contakc from "./pages/Contakc.jsx"
+import Contakc from "./pages/Contakc"
 
 function App() {
   return (
