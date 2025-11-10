@@ -6,7 +6,8 @@ import { useQuery } from "@tanstack/react-query";
 import { useParams, useNavigate } from "react-router-dom";
 
 import { useTranslation } from "react-i18next";
-function Contakc() {
+
+const Contacts = () => {
     const { t } = useTranslation();
 
     const nav = useNavigate();
@@ -133,4 +134,4 @@ function Contakc() {
     );
 }
 
-export default Contakc;
+export default Contacts

@@ -3,7 +3,7 @@ import Layout from "./pages/Layout"
 import Home from "./pages/Home"
 import Products from "./pages/Products"
 import { Coment } from "./pages/Coment"
-import Contakc from "./pages/Contakc"
+import Contacts from "./pages/Contacts"
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/product" element={<Products />} />
           <Route path="/coment" element={<Coment />} />
-          <Route path="/contakc/:id" element={<Contakc />} />
+          <Route path="/contacts/:id" element={<Contacts />} />
         </Route>
       </Routes>
     </div>
