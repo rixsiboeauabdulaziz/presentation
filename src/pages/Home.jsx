@@ -1,7 +1,7 @@
 import React from 'react'
 import { ImageCarousel } from '../components/Carousel'
 import Cart from '../components/Cart'
-import { SimpleCard } from '../components/comentari'
+import { SimpleCard } from '../components/Comments'
 
 function Home() {
   return (
