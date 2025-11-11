@@ -12,20 +12,19 @@ import { Link } from "react-router-dom";
 function Cart() {
   const { t } = useTranslation();
 
-  // ✅ Создали массив с разными именами
   const products = [
     {
-      img: "/public/Без названия (4).jpeg",
+      img: "/Без названия (4).jpeg",
       name: "StoneLine Black Premium",
       size: "60×120 sm",
     },
     {
-      img: "/public/Без названия (7).jpeg",
+      img: "/Без названия (7).jpeg",
       name: "Marble White Classic",
       size: "60×120 sm",
     },
     {
-      img: "/public/Керамогранит  _ Global Tile 60х120.jpeg",
+      img: "/Керамогранит  _ Global Tile 60х120.jpeg",
       name: "Granite Brown Luxe",
       size: "60×120 sm",
     },
