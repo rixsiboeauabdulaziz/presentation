@@ -14,17 +14,18 @@ function Cart() {
 
   const products = [
     {
-      img: "/Без названия (4).jpeg",
+      img: "/3.jpeg",
       name: "StoneLine Black Premium",
       size: "60×120 sm",
     },
     {
-      img: "/Без названия (7).jpeg",
+      img: "/2.jpeg",
       name: "Marble White Classic",
       size: "60×120 sm",
     },
     {
-      img: "/Керамогранит  _ Global Tile 60х120.jpeg",
+      img: "/1.jpeg",
+      
       name: "Granite Brown Luxe",
       size: "60×120 sm",
     },
