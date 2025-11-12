@@ -11,7 +11,7 @@ import {
   SunIcon,
 } from "@heroicons/react/24/outline";
 import { Link, useLocation } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+  import { useTranslation } from "react-i18next";
 
 function NavList({ onClick }) {
   const location = useLocation();
