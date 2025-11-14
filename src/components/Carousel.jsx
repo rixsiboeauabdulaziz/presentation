@@ -1,5 +1,6 @@
 import { Carousel } from "@material-tailwind/react";
 import { useTranslation } from "react-i18next";
+import "../util/i18next"
 
 export function ImageCarousel() {
   const { t } = useTranslation();
